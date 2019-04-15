@@ -31,6 +31,7 @@ public class LoadingDialog extends Dialog{
     public static class Builder{
 
         private Context context;
+        
         private String message;
         private boolean isShowMessage=true;
         private boolean isCancelable=true;
